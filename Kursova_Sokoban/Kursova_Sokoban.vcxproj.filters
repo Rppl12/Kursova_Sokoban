@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Kursova_Sokoban.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kursova_Sokoban.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kursova_Sokoban.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Kursova_Sokoban.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\Hero.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\Tree.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\Free.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\Box_Apply.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\Grass.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\Final_place.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\Icon_red_apple.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\Box.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\Icon_red_apple.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\Box_Apply.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\Background.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="images\Red_icon.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="favicon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
